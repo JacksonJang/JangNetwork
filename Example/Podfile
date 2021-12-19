@@ -1,0 +1,6 @@
+use_frameworks!
+target 'JangNetwork_Tests' do
+  pod 'JangNetwork', :path => '../'
+  
+  
+end

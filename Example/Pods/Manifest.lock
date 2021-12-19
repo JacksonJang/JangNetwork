@@ -1,0 +1,16 @@
+PODS:
+  - JangNetwork (0.1.0)
+
+DEPENDENCIES:
+  - JangNetwork (from `../`)
+
+EXTERNAL SOURCES:
+  JangNetwork:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JangNetwork: bdf93fcec48c06c0c3e984c599c57fcc64bcbfe8
+
+PODFILE CHECKSUM: bdb50deff98739f70f1f5cdc7439a1c478dcb810
+
+COCOAPODS: 1.11.2
