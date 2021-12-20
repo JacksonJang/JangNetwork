@@ -2,15 +2,15 @@ PODS:
   - JangNetwork (0.0.2)
 
 DEPENDENCIES:
-  - JangNetwork (from `../`)
+  - JangNetwork
 
-EXTERNAL SOURCES:
-  JangNetwork:
-    :path: "../"
+SPEC REPOS:
+  trunk:
+    - JangNetwork
 
 SPEC CHECKSUMS:
   JangNetwork: 49f4c6c5f22951c552db3fa00015c457a95b869d
 
-PODFILE CHECKSUM: bdb50deff98739f70f1f5cdc7439a1c478dcb810
+PODFILE CHECKSUM: 54edc8d297d6aa954f5d3a4138e2b76fad5b8467
 
 COCOAPODS: 1.11.2

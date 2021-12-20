@@ -9,12 +9,6 @@
 /* Begin PBXBuildFile section */
 		3A49ADB173D2212DA5CF32FB /* Pods_JangNetwork_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD38F20F83CC965C61883BE2 /* Pods_JangNetwork_Tests.framework */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		E2B3C2452770F108002F9D21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B3C2442770F108002F9D21 /* AppDelegate.swift */; };
-		E2B3C2472770F108002F9D21 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B3C2462770F108002F9D21 /* SceneDelegate.swift */; };
-		E2B3C2492770F108002F9D21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B3C2482770F108002F9D21 /* ViewController.swift */; };
-		E2B3C24C2770F108002F9D21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2B3C24A2770F108002F9D21 /* Main.storyboard */; };
-		E2B3C24E2770F109002F9D21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2B3C24D2770F109002F9D21 /* Assets.xcassets */; };
-		E2B3C2512770F109002F9D21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2B3C24F2770F109002F9D21 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,14 +21,6 @@
 		917965968377226FBBF0B147 /* Pods-JangNetwork_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JangNetwork_Tests.release.xcconfig"; path = "Target Support Files/Pods-JangNetwork_Tests/Pods-JangNetwork_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9650B389B6AB7E65D43EC891 /* Pods-JangNetwork_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JangNetwork_Tests.debug.xcconfig"; path = "Target Support Files/Pods-JangNetwork_Tests/Pods-JangNetwork_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		DD38F20F83CC965C61883BE2 /* Pods_JangNetwork_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JangNetwork_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E2B3C2422770F108002F9D21 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E2B3C2442770F108002F9D21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E2B3C2462770F108002F9D21 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E2B3C2482770F108002F9D21 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E2B3C24B2770F108002F9D21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E2B3C24D2770F109002F9D21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E2B3C2502770F109002F9D21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E2B3C2522770F109002F9D21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,13 +32,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E2B3C23F2770F108002F9D21 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -61,7 +40,6 @@
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACE81AFB9204008FA782 /* Tests */,
-				E2B3C2432770F108002F9D21 /* Demo */,
 				607FACD11AFB9204008FA782 /* Products */,
 				9A2FFA03B1F8A8BC86FA09E5 /* Pods */,
 				D24083493681D5D85252E5F7 /* Frameworks */,
@@ -72,7 +50,6 @@
 			isa = PBXGroup;
 			children = (
 				607FACE51AFB9204008FA782 /* JangNetwork_Tests.xctest */,
-				E2B3C2422770F108002F9D21 /* Demo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -121,20 +98,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E2B3C2432770F108002F9D21 /* Demo */ = {
-			isa = PBXGroup;
-			children = (
-				E2B3C2442770F108002F9D21 /* AppDelegate.swift */,
-				E2B3C2462770F108002F9D21 /* SceneDelegate.swift */,
-				E2B3C2482770F108002F9D21 /* ViewController.swift */,
-				E2B3C24A2770F108002F9D21 /* Main.storyboard */,
-				E2B3C24D2770F109002F9D21 /* Assets.xcassets */,
-				E2B3C24F2770F109002F9D21 /* LaunchScreen.storyboard */,
-				E2B3C2522770F109002F9D21 /* Info.plist */,
-			);
-			path = Demo;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -157,23 +120,6 @@
 			productReference = 607FACE51AFB9204008FA782 /* JangNetwork_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		E2B3C2412770F108002F9D21 /* Demo */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E2B3C2552770F109002F9D21 /* Build configuration list for PBXNativeTarget "Demo" */;
-			buildPhases = (
-				E2B3C23E2770F108002F9D21 /* Sources */,
-				E2B3C23F2770F108002F9D21 /* Frameworks */,
-				E2B3C2402770F108002F9D21 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Demo;
-			productName = Demo;
-			productReference = E2B3C2422770F108002F9D21 /* Demo.app */;
-			productType = "com.apple.product-type.application";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -188,11 +134,6 @@
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
-					};
-					E2B3C2412770F108002F9D21 = {
-						CreatedOnToolsVersion = 13.1;
-						DevelopmentTeam = DD7RT45876;
-						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -211,7 +152,6 @@
 			projectRoot = "";
 			targets = (
 				607FACE41AFB9204008FA782 /* JangNetwork_Tests */,
-				E2B3C2412770F108002F9D21 /* Demo */,
 			);
 		};
 /* End PBXProject section */
@@ -221,16 +161,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E2B3C2402770F108002F9D21 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E2B3C2512770F109002F9D21 /* LaunchScreen.storyboard in Resources */,
-				E2B3C24E2770F109002F9D21 /* Assets.xcassets in Resources */,
-				E2B3C24C2770F108002F9D21 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,36 +218,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E2B3C23E2770F108002F9D21 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E2B3C2492770F108002F9D21 /* ViewController.swift in Sources */,
-				E2B3C2452770F108002F9D21 /* AppDelegate.swift in Sources */,
-				E2B3C2472770F108002F9D21 /* SceneDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		E2B3C24A2770F108002F9D21 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E2B3C24B2770F108002F9D21 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E2B3C24F2770F109002F9D21 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E2B3C2502770F109002F9D21 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		607FACED1AFB9204008FA782 /* Debug */ = {
@@ -459,83 +360,6 @@
 			};
 			name = Release;
 		};
-		E2B3C2532770F109002F9D21 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = DD7RT45876;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Demo/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.0;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jang.Demo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		E2B3C2542770F109002F9D21 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = DD7RT45876;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Demo/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.0;
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jang.Demo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -553,15 +377,6 @@
 			buildConfigurations = (
 				607FACF31AFB9204008FA782 /* Debug */,
 				607FACF41AFB9204008FA782 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E2B3C2552770F109002F9D21 /* Build configuration list for PBXNativeTarget "Demo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E2B3C2532770F109002F9D21 /* Debug */,
-				E2B3C2542770F109002F9D21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

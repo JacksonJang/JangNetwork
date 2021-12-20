@@ -1,22 +1,22 @@
 {
   "name": "JangNetwork",
-  "version": "0.1.0",
-  "summary": "A short description of JangNetwork.",
+  "version": "0.0.2",
+  "summary": "JangNetwork is based on URLSession network. you can use efficiently",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/장효원/JangNetwork",
+  "homepage": "https://github.com/hyo961015/JangNetwork",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "장효원": "hyo961015@naver.com"
+    "JangHyoWon": "hyo961015@naver.com"
   },
   "source": {
-    "git": "https://github.com/장효원/JangNetwork.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/hyo961015/JangNetwork.git",
+    "tag": "0.0.2"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "JangNetwork/Classes/**/*"
+  "source_files": "Source/*.swift"
 }
