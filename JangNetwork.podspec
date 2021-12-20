@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JangNetwork'
-  s.version          = '0.0.2'
+  s.version          = '0.0.3'
   s.summary          = 'JangNetwork is based on URLSession network. you can use efficiently'
 
 # This description is used to generate tags and improve search results.
