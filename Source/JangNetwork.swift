@@ -14,7 +14,6 @@ open class JangNetwork: NSObject {
     public static let shared = JangNetwork()
 
     public func request(method: Method = .GET, url: String, params: [String: Any] = [:], headers:[String:String] = [:], callback: @escaping Handler) {
-        print("Networking")
         
         var request = URLRequest(url: URL(string: url)!)
         
