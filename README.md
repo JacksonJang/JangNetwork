@@ -20,6 +20,9 @@ pod 'JangNetwork', '~> 0.0.3'
 ## Usage
 Using JangNetwork is really simple. You can access an API like this : 
 ```swift
+import JangNetwork
+```
+```swift
 JN.request(url: "http://example.com") {(result) in            
         switch result {
             case .success(let data):
