@@ -1,6 +1,7 @@
 # JangNetwork
 [![CocoaPods Compatible](https://img.shields.io/cocoapods/v/JangNetwork.svg?style=flat-square)](https://img.shields.io/cocoapods/v/JangNetwork.svg)
-JangNetwork is based on URLSession network. you can use efficiently
+
+*JangNetwork is based on URLSession network. you can use efficiently. This Library is lightweight networking.*
 
 ## Installation
 
